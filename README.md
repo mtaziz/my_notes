@@ -39,9 +39,10 @@ Source: [digital ocean](https://www.digitalocean.com/community/tutorials/how-to-
 
     docker-compose up
 
-
-
-
+NOTE: I had issues when  command of `docker-compose up` executed but there was sort of permision issues. 
+I did not use ` sudo apt-get install python-pip` as I had `pip` previously installed. 
+In virtualenv, I installed pip without using sudo. Therefore, I installed *docker-compose* using `pip install docker-compose`.
+Then I had to restart the machine. 
 
 
 
