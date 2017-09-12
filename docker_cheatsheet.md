@@ -1,12 +1,15 @@
 # BUILD
 
 Build an image from the Dockerfile in the current directory and tag the image
+
     docker build -t myapp:1.0 .
 
 List all images that are locally stored with the Docker engine
+
     docker images
 
 Delete an image from the local image store
+
     docker rmi alpine:3.4
 
 
