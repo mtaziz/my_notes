@@ -131,3 +131,6 @@ Scale a service
 List the tasks of a service
 
     docker service ps web
+
+
+![Docker Cheat Sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf)
