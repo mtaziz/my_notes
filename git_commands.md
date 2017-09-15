@@ -2,4 +2,9 @@
 
     git branch develop
     git checkout develop
-    git ..
+    # edit git commands file and add new commands
+    git add -A
+    git commit -m "git commit and add commands added"
+    # push to the develop branch
+    git push origin develop 
+    # 
