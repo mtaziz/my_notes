@@ -2,9 +2,16 @@
 
     git branch develop
     git checkout develop
+    
     # edit git commands file and add new commands
     git add -A
     git commit -m "git commit and add commands added"
+    
     # push to the develop branch
     git push origin develop 
-    # 
+    
+    # go back to master and merge 'develop' branching
+    git checkout master 
+    git merge develop
+
+    
